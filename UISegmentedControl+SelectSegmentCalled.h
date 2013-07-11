@@ -10,4 +10,6 @@
 
 @interface UISegmentedControl (SelectSegmentCalled)
 
+- (int) selectSegmentCalled:(NSString*)segmentName;
+
 @end
